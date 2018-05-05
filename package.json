@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/nilspersson/gourmetboulevarden.se/issues"
   },
-  "homepage": "https://github.com/nilspersson/gourmetboulevarden.se#readme"
+  "homepage": "https://github.com/nilspersson/gourmetboulevarden.se#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-cleanhtml": "^1.0.3",
+    "gulp-jshint": "^2.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^3.0.0",
+    "vinyl-ftp": "^0.6.1"
+  }
 }
