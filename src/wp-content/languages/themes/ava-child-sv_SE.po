@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Ava Child\n"
+"POT-Creation-Date: 2018-05-06 16:56+0200\n"
+"PO-Revision-Date: 2018-05-06 16:56+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: sv\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:166
+msgid "A part of"
+msgstr "En del av"
+
+#. Theme Name of the plugin/theme
+msgid "Ava Child"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://demo.themebeans.com/ava"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Make your modifications to Ava in this child theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Nils Persson"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://nilspersson.se"
+msgstr ""
