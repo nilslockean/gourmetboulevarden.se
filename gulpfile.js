@@ -55,7 +55,7 @@ gulp.task('styles', () =>
 		.pipe(sass({
 			outputStyle: 'compressed'
 		}).on('error', sass.logError))
-		.pipe(gulp.dest('dist'))
+		.pipe(gulp.dest('src'))
 )
 
 const defaults = ['copy', 'html', 'scripts', 'styles']
