@@ -92,6 +92,6 @@ gulp.task('deploy', ['copy', 'html', 'scripts', 'styles'], () => {
 	}
 
 	return gulp.src(globs, options)
-		.pipe( conn.newer('/public_html') ) // only upload newer files
-		.pipe( conn.dest('/public_html') )
+		.pipe( conn.newer('/') ) // only upload newer files
+		.pipe( conn.dest('/') )
 })
