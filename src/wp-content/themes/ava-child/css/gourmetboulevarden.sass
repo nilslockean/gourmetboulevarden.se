@@ -1,0 +1,30 @@
+@import 'variables'
+
+/* Opening Hours */
+.site
+  h3
+    &.op-holidays-title, &.op-irregular-openings-title
+      font-size: 1em
+      border-bottom: 1px solid #ddd
+      display: inline-block
+      padding-bottom: .3em
+  .op-table
+    border: none
+    th, td
+      border-right: none
+    tr
+      &:last-child
+        th, td
+          border-bottom-width: 0
+      &.highlighted
+        th, td
+        	font-weight: bold
+          color: inherit
+  .op-cell-periods
+    text-align: right
+  .op-open
+    color: #219c5e
+  .op-list
+    margin-top: .5em
+    dd
+      margin: 0 0 .5em

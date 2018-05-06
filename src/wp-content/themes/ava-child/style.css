@@ -2,8 +2,10 @@
 Theme Name:     Ava Child
 Theme URI:      http://demo.themebeans.com/ava
 Description:    Make your modifications to Ava in this child theme.
-Author:         ThemeBeans
-Author URI:     https://themebeans.com
-Version:        1.0
+Author:         Nils Persson
+Author URI:     https://nilspersson.se
+Version:        1.0.1
 Template:       ava
 */
+
+@import './css/gourmetboulevarden.css'
