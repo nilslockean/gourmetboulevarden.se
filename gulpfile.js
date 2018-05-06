@@ -65,6 +65,10 @@ gulp.task('default', ['clear'], () => {
   gulp.start(defaults.concat('watch'))
 })
 
+gulp.task('build', ['clear'], () =>
+	gulp.start(defaults)
+)
+
 // Magic watch task <3
 gulp.task('watch', () => {
   gulp.watch(['src/**/*', '!src/**/*.html', '!src/**/*.sass'], ['copy'])
