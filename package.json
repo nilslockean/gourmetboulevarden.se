@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nilspersson/gourmetboulevarden.se#readme",
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.1",
@@ -25,7 +26,9 @@
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
     "pump": "^3.0.0",
     "vinyl-ftp": "^0.6.1"
-  }
+  },
+  "dependencies": {}
 }
