@@ -16,7 +16,7 @@ gulp.task('clear', () =>
 
 // Copy static files to dist folder
 gulp.task('copy', () =>
-  gulp.src(['src/**/*', '!src/**/*.html', '!src/**/*.sass'])
+  gulp.src(['src/**/*', '!src/**/*.html', '!src/**/*.sass', '!src/**/*.js'])
 		.pipe(gulp.dest('dist'))
 )
 
@@ -65,9 +65,7 @@ gulp.task('default', ['clear'], () => {
   gulp.start(defaults.concat('watch'))
 })
 
-gulp.task('build', ['clear'], () =>
-	gulp.start(defaults)
-)
+gulp.task('build', defaults)
 
 // Magic watch task <3
 gulp.task('watch', () => {
