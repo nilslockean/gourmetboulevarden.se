@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'print-clearly';
+  src: url('PrintClearly-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'print-clearly';
+  src: url('PrintBold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
