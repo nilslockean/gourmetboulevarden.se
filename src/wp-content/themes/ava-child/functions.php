@@ -13,6 +13,7 @@
  * functions.php file. The child theme's functions.php file is included before
  * the parent theme's file, so the child theme functions would be used.
  */
+require 'gb-customizer.php';
 
 load_theme_textdomain( 'ava-child', get_stylesheet_directory_uri().'/languages' );
 
