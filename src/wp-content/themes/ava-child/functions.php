@@ -14,6 +14,7 @@
  * the parent theme's file, so the child theme functions would be used.
  */
 require 'gb-customizer.php';
+require 'gb-mobile-header.php';
 
 load_theme_textdomain( 'ava-child', get_stylesheet_directory_uri().'/languages' );
 
