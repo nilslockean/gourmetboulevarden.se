@@ -80,7 +80,7 @@ gulp.task('deploy', ['copy', 'html', 'scripts', 'styles'], () => {
 	const conn = ftp.create({
 		host: 'ftpcluster.loopia.se',
 		user: 'gourmetboulevarden.se',
-		password: 'rpaTDC6;,k4t'
+		password: 'ENTER_PASSWORD'
 	})
 
 	const globs = ['dist/**/*', '!dist/**/*.map']
